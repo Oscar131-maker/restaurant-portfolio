@@ -1,0 +1,55 @@
+/** Tipografy **/
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500;600&family=Nunito+Sans:wght@300;700&display=swap');
+
+$lora:'Lora', serif;
+$nunito:'Nunito Sans', sans-serif;
+
+
+/** Color **/
+$yellow:#fff900;
+$blue:#655efb;
+$black:#141414;
+$white:#fafafa;
+
+/** General **/
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+   font-family:$nunito;
+   overflow-x: hidden;
+}
+
+
+// 100% wrapper
+.wrapper-100{
+   width:100%;
+}
+
+/** Image **/
+figure.ad-img img{
+   width:100%;
+}
+
+/** Margin & Padding **/
+.padding-30{padding:30px;}
+
+/** Titles **/
+h3.title-ad{
+   font-family:$lora;
+   font-size:40px;
+   margin-bottom:15px;
+}
+.ad-text p{
+   font-size:19px;
+   margin-bottom:20px;
+   line-height:30px;
+}
+
+/** Slider **/
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet{
+   background-color:$black;
+}
+
